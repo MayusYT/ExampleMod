@@ -1,0 +1,15 @@
+[
+{
+  "modid": "examplemod",
+  "name": "Example Mod",
+  "description": "Lorem Ipsum dolor sit amet!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["MayusYT"],
+  "credits": "MayusYT",
+  "logoFile": "",
+  "screenshots": []
+}
+]
