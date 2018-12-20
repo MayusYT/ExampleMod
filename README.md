@@ -1,3 +1,3 @@
-# MyMod
+# Example mod
 
-Simple Minecraft forge 1.12 mod. Codebase by [McJty](https://github.com/McJty/YouTubeModdingTutorial/)
+This is an example mod for my [modding tutorial!](https://github.com/MayusYT/moddingtutorial/wiki)
