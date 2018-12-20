@@ -2,8 +2,6 @@ package mayus.examplemod;
 
 
 import mayus.examplemod.proxy.CommonProxy;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -11,8 +9,8 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = CraftingStation.MODID, name = CraftingStation.MODNAME, version = CraftingStation.MODVERSION, dependencies = "required-after:forge@[14.23.5.2768,)", useMetadata = true)
-public class CraftingStation {
+@Mod(modid = ExampleMod.MODID, name = ExampleMod.MODNAME, version = ExampleMod.MODVERSION, dependencies = "required-after:forge@[14.23.5.2768,)", useMetadata = true)
+public class ExampleMod {
 
     public static final String MODID = "examplemod";
     public static final String MODNAME = "Example Mod";
@@ -22,7 +20,7 @@ public class CraftingStation {
     public static CommonProxy proxy;
 
     @Mod.Instance
-    public static CraftingStation instance;
+    public static ExampleMod instance;
 
     public static Logger logger;
 
